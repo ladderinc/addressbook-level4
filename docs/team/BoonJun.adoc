@@ -14,9 +14,9 @@ NUSSU Connect is a CLI application mainly targeted towards executive committee (
 Being representatives of the NUS student body, the exco members initiate projects to improve the welfare of all students.
 Therefore, this application aims to help the exco members ease the process of managing such projects.
 
-To do so, the application comes with several features. This includes budgets/expenses management, recruitment and managing of important contacts.
+To do so, the application comes with several features. This includes budgets/expenses management, human resource allocation and managing of important contacts.
 The original source code of this project is the https://github.com/se-edu/[AddressBook-Level4] project created by SE-EDU initiative, and hence,
-this project also comes with some of the features from the AB4 project.
+it also comes with some of the features from the AB4 project.
 
 == Summary of contributions
 
@@ -53,17 +53,19 @@ unwanted results from their search.
 * *Other contributions*:
 
 ** Project management:
-*** Managed releases `v1.1` - `v1.2.1` (3 releases) on GitHub
+*** Managed releases `v1.1`, `v1.2` and `v1.2.1` (3 releases) on GitHub
+*** Managed Milestones and Deadlines of the project.
+
 ** Documentation:
 *** Changing site-wide documentation settings in several files.
-*** Did tweaks to ReadMe, UserGuide and DeveloperGuide to meet the module requirements.
-**  PRs reviews:
-*** Provided teammates with non-trivial PR reviews.
+*** Did tweaks to ReadMe, UserGuide and DeveloperGuide to meet the module requirements. (Pull Requests https://github.com[#12], https://github.com[#14], https://github.com[#23])
+*** Provided teammates with non-trivial PR reviews (Pull Requests https://github.com[#25], https://github.com[#76])
+
 ** Tools:
 *** Integrated Coveralls to the team repo
 
-_{you can add/remove categories in the list above}_
-
+**  Others:
+*** Search Pruning Feature reused in Login/Logout feature of the application.
 == Contributions to the User Guide
 
 
@@ -80,11 +82,3 @@ include::../UserGuide.adoc[tag=find]
 |===
 
 include::../DeveloperGuide.adoc[tag=searchpruning]
-
-
-
-== PROJECT: Vincent :)
-
----
-
-_{Optionally, you may include other projects in your portfolio.}_
